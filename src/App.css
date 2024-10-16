@@ -42,3 +42,10 @@ a {
   height: 100%;
   background-color: #202020;
 }
+
+img,
+.songContainer,
+.full-bar,
+.progress-bar {
+  border-radius: 0.5em;
+}
