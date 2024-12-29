@@ -29,7 +29,7 @@ export const SpotifyCurrentSong = () => {
   //   }
   // })
 
-  const lastResponse = JSON.parse(localStorage.getItem('lastlyPlayed'));
+  // const lastResponse = JSON.parse(localStorage.getItem('lastlyPlayed'));
 
   function convertTime(seconds) {
     let minutes = Math.floor(seconds / 60);
